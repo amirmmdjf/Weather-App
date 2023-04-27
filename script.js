@@ -23,7 +23,6 @@ function fetchData() {
 
 }
 
-
 function showData(data) {
     city.innerHTML = `${data.name} , ${data.sys.country}`
     temp.innerHTML = `${Math.round(data.main.temp - 273.15)}°c`
@@ -54,13 +53,3 @@ inputCity.addEventListener("keydown", function (event) {
         fetchData()
     }
 });
-
-
-
-
-
-
-
-
-
-
