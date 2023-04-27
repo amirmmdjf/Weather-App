@@ -44,7 +44,6 @@ header input:focus {
 }
 
 main {
-    /* flex: 1 1 ; */
     padding: 25px 25px 50px;
     display: flex;
     flex-direction: column;
